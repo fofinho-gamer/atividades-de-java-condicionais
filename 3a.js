@@ -1,10 +1,10 @@
 let nota = 75
-if (nota >= 60){
-    console.log("b")
+if (nota >= 80){
+    console.log("nota A")
 }
-else if (nota > 80){
-    console.log("a")
+else if (nota >= 60){
+    console.log("nota B")
 }
 else {
-    console.log("c")
+    console.log("nota C")
 }
